@@ -1,0 +1,50 @@
+.developer {
+    margin-top: 8em;
+    justify-content: center;
+    display: inline-block;
+}
+.typed-out {
+    color: black; 
+    margin: 0 auto;
+    border-right: 1em solid black;
+    overflow: hidden;
+    animation: type 3.5s steps(50, end),
+               blink .5s step-end infinite;
+    white-space: nowrap;
+}
+@keyframes type {
+    from { width: 0% }
+    to { width: 100% }
+}
+@keyframes blink {
+    0% {border-color: transparent}
+    50% {border-color: black}
+}
+.animated-gif {
+    margin-top: 300px;
+}
+.dvf {
+    background-color: #000000;
+    color: #15ff00;
+    font-family: 'Courier New';
+    font-size: 25px;
+}
+.inst {
+        border-color: #f1c40f;
+        color: rgb(0, 0, 0);
+        background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+        background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+        text-decoration: none;
+        padding: 14px 16px;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Bahnschrift';
+        font-size: 30px;
+}
+.inst:hover {
+        background-position: 0;
+}
