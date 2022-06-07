@@ -1,3 +1,2 @@
 from browser import *
-
-document <= "FIGHT bitchh"
+lst = html.strong()
