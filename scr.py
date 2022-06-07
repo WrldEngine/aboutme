@@ -1,4 +1,5 @@
 from browser import *
+from browser import time
 import javascript
 for i in range(30):
     timer.clear_timeout(1)
